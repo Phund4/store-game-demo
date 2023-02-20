@@ -1,0 +1,57 @@
+*, ::after, ::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  color: #F5F5F5;
+  line-height: 113%;
+  font-size: 1.6rem;
+}
+
+.container {
+  display: grid;
+  grid-template-rows: 80vh min-content 40vw repeat(3, min-content);
+}
+
+.cards {
+  background: #F5F5F5;
+}
+
+.header {
+  background: #101D2C;
+}
+
+.features {
+  background: #F5F5F5;
+}
+
+.gamers {
+  background: #101D2C;
+}
+
+.banner-img {
+  background: #101D2C;
+}
+.banner-text {
+  background: #101D2C;
+}
+
+.sidebar {
+  background: #425844;
+}
+
+.gallery {
+  background: #101D2C;
+}
+
+.footer {
+  background: #101D2C;
+}/*# sourceMappingURL=style.css.map */
